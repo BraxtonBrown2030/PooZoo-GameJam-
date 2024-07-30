@@ -10,7 +10,8 @@ public class testingScript : MonoBehaviour
     private void OnDrawGizmos()
     {
         Handles.color = Color.white;
-        Handles.DrawWireDisc(transform.position, Vector3.up, radius);
+        
+        
     }
     
 
